@@ -41,13 +41,13 @@ bash download_tsn_features.sh
 ### Training
 
 ```sh
-python train.py --feature_type c3d --mask_weight 1.0 --gated_mask
+python train.py --feature_type tsn --mask_weight 1.0 --gated_mask
 ```
 
 ### Validation
 
 ```sh
-python test.py --feature_type c3d --checkpoint checkpoint.pt --learn_mask --gated_mask
+python test.py --feature_type tsn --checkpoint checkpoint.pt --learn_mask --gated_mask
 ```
 
 ## License
