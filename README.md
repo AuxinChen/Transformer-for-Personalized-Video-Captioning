@@ -4,7 +4,7 @@
 
 A PyTorch implementation for the Transformer for Personalized Video Captioning (TPVC) model to perform the keyword-guided personalized video captioning task.
 
-![model](assets/model.jpg)
+![model](assets/model.png)
 
 ## Requirement
 
@@ -66,7 +66,7 @@ We provide a novel personalized video caption dataset named ActivityNet-QC. This
 
 ## Example
 
-![example](assets/example.jpg)
+![example](assets/example.png)
 
 ## License
 
